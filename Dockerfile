@@ -1,3 +1,3 @@
 FROM httpd
 
-ADD hello  /var
+ADD 1.html  /var/www/html
