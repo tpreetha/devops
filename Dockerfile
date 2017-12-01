@@ -1,4 +1,4 @@
-FROM httpd
+FROM php:7.0-apache
 
-ADD 1.html /usr/local/apache2/htdocs
+ADD blob /var/www/html/
 
