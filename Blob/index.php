@@ -9,7 +9,7 @@
 <body id="img1" background="images/9.jpg">
 <?php
 mb_internal_encoding("UTF-8");
-ini_set("display_errors", "1");
+ini_set("display_errors", "0");
   error_reporting(E_ALL);
   echo "hello world"; 
 
