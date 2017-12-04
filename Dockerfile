@@ -1,4 +1,4 @@
-FROM hshar/ubuntuphp
+FROM hshar/dockernew121
 
 ADD Blob /var/www/html/
 
