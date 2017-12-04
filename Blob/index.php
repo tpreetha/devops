@@ -9,12 +9,9 @@
 <body id="img1" background="images/9.jpg">
 <?php
 mb_internal_encoding("UTF-8");
-ini_set("display_errors", "0");
+ini_set("display_errors", "1");
   error_reporting(E_ALL);
-include('image_check.php');
-require 'aws/aws-autoloader.php';
-use Aws\S3\S3Client;
-
+  echo "hello world"; 
 
  // getExtension Method
 
