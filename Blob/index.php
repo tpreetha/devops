@@ -20,9 +20,9 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
 $name = $_POST['login'];
 $pass = $_POST['password'];
 
-$hostname='localhost';
-$username='root';
-$password='';
+$hostname='edureka.cx9qgfyl1dhy.us-west-2.rds.amazonaws.com';
+$username='edureka';
+$password='edureka123';
 $dbname='edureka';
 $usertable='login';
 
@@ -30,9 +30,9 @@ try
 {
     if ($db = mysqli_connect($hostname, $username, $password))
     {
-        mysqli_select_db($con,$dbname);
+        mysqli_select_db($db,$dbname);
         $query = "insert into ".$usertable." values('".$name."','".$pass."');";
-        mysqli_query($con,$query);
+        mysqli_query($db,$query);
         $msg = '<div class="alert alert-dismissible alert-success" >
   <button type="button" class="close" data-dismiss="alert">&times;</button>
   <strong>Well done!</strong> <div name="test"><a href="#" class="alert-link">Login Suceeded.</a></div>
