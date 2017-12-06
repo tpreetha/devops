@@ -6,7 +6,7 @@
 <head>
 
 </head>
-<body id="img1" background="images/12.jpg">
+<body id="img1" background="images/9.jpg">
 <?php
  
 ini_set("display_errors", "0");
@@ -35,7 +35,7 @@ try
         mysqli_query($db,$query);
         $msg = '<div class="alert alert-dismissible alert-success" >
   <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <strong>Well done!</strong> <div name="test"><a href="#" class="alert-link">Login Suceeded.</a></div>
+  <strong>Well done!</strong> <div name="test"><a href="#" class="alert-link">Login Succeeded.</a></div>
 </div>';
     }
     else
