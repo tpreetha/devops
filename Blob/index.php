@@ -35,7 +35,7 @@ try
         mysqli_query($db,$query);
         $msg = '<div class="alert alert-dismissible alert-success" >
   <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <strong>Well done!</strong> <div name="test"><a href="#" class="alert-link">Login Succeeded.</a></div>
+  <strong>Well done!</strong> <a href="#" class="alert-link"><div name="test">Login Succeeded</div></a>
 </div>';
     }
     else
